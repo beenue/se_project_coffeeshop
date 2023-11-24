@@ -15,12 +15,13 @@
 }
 .footer__content_social {
   margin-left: auto;
+  display: block;
 }
 
 .footer__social-heading{
   margin: 0 0 20px;
   text-align: right;
-  font-family: "Inter",arial,sans-serif;
+  font-family: "Inter", arial, sans-serif;
   font-style:normal;
   font-weight: bold;
   font-size: 16px;
@@ -29,6 +30,8 @@
 
 .footer__list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
@@ -47,11 +50,11 @@
 
 .footer__social-link {
   color: white;
-  transition-property: background-color;
+  transition-property: color;
   transition-duration: 1s;
   transition-timing-function: linear;
   text-decoration: none;
-  font-family: "Inter",arial,sans-serif;
+  font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -63,8 +66,8 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
-  font-family: "Inter",arial,sans-serif;
+  margin-top: 108px 0 0;
+  font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
