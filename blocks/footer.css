@@ -1,6 +1,5 @@
-
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
   padding: 60px 80px;
 }
@@ -18,11 +17,11 @@
   display: block;
 }
 
-.footer__social-heading{
+.footer__social-heading {
   margin: 0 0 20px;
   text-align: right;
   font-family: "Inter", arial, sans-serif;
-  font-style:normal;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;

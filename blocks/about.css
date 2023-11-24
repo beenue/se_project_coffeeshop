@@ -1,12 +1,18 @@
 @keyframes pulse {
-  0% {opacity: 0;}
-  50% {opacity: 0.6;}
-  100% {opacity: 0;
-        transform: scale(1.3);}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
 }
 
 .about {
-  background-color: #0A2850;
+  background-color: #0a2850;
   padding: 108px 80px 173px;
   overflow: hidden;
   color: white;
@@ -27,15 +33,15 @@
 }
 
 .about__content {
-margin-left: auto;
-margin-top: 8px;
+  margin-left: auto;
+  margin-top: 8px;
 }
 
 .about__paragraph {
   max-width: 660px;
   margin: 0 0 20px;
   padding: 0;
-  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,4 +66,3 @@ margin-top: 8px;
   animation: pulse 1.3s ease-in-out none infinite;
   z-index: 1;
 }
-

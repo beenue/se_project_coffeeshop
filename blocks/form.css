@@ -29,6 +29,7 @@
   line-height: 30px;
   height: 60px;
   border-radius: 4px;
+  border: #2f80ed;
 }
 
 .form__input::placeholder {
@@ -58,8 +59,8 @@
 }
 
 .form__label_type_checkbox {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form__checkbox {
